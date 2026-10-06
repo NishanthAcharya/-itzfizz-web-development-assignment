@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f1ea;
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    min-height: 250vh;
+}
+
+.name{
+    background-color: #1d3557;
+    color: white;
+    padding: 35px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name h1{
+    font-size: 38px;
+    letter-spacing: 6px;
+}
+
+.visualize{
+    background-color: #e9ecef;
+    min-height: 100vh;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.main-visual{
+    color: #1d3557;
+    font-size: 32px;
+}
+
+.visual-box{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    will-change: transform;
+}
+
+.visual-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+.statistics{
+    min-height: 100vh;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #f4f1ea;
+    padding: 30vh 20px 50px;
+}
+
+.satisfaction,
+.success,
+.perform{
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    width: 200px;
+    margin: 0 clamp(10px, 3vw, 50px);
+    text-align: center;
+    background-color: white;
+    color: #1d3557;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 700px){
+
+    .statistics{
+        white-space: normal;
+    }
+
+    .satisfaction,
+    .success,
+    .perform{
+        margin: 15px 10px;
+    }
+}
+
+.satisfaction h2,
+.success h2,
+.perform h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.satisfaction p,
+.success p,
+.perform p{
+    font-size: 17px;
+    color: #555;
+}
