@@ -1,16 +1,46 @@
-# React + Vite
+# Itzfizz Digital - Web Development Internship Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A scroll-driven hero section animation created for the Itzfizz Digital Web Development Internship assignment.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
 
-## React Compiler
+* HTML
+* CSS
+* JavaScript
+* React.js
+* GSAP
+* ScrollTrigger
+* Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Letter-spaced hero heading
+* Smooth heading entrance animation
+* Staggered statistics animation
+* Scroll-driven hero visual animation
+* Image movement, scaling and rotation based on scroll
+* Smooth scrolling interaction
+* Responsive layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```text
+src/
+├── assets/
+├── App.css
+├── App.jsx
+└── main.jsx
+```
+
+## Assignment
+
+This project was created as part of the Itzfizz Digital Web Development Internship assignment.
+
+The main objective was to create a modern hero section with smooth initial-load animations and scroll-based interactions using React and GSAP.
+
+## Developer
+
+Nishanth Acharya
+
+GitHub: https://github.com/NishanthAcharya
